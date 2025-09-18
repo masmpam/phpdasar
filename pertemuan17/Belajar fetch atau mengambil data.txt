@@ -1,0 +1,15 @@
+ Belajar fetch atau mengambil data
+
+// //ambil data dari mahasiswa atau query data mahasiswa
+// $result = mysqli_query($conn, "SELECT * FROM mahasiswa");
+
+// //ambil data (fetch) mahasiswa dari object data result
+
+// //mysqli_fetch_row() = mengembalikan array numerik
+// //mysqli_fetch_assoc() = mengembalikan array associative
+// //mysqli_fetch_array() = gabungan fetch row dan assoc (data double)
+// //mysqli_fetch_object() = cara manggilnya var_dump($mhs->nama);
+
+// // while( $mhs = mysqli_fetch_assoc($result) ) {
+// // var_dump($mhs["nama"]);
+// // }
